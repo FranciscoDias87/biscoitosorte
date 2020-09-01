@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.texto-frase{
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}
+
+.botao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;    
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;    
+    color: #ffff;
+    cursor: pointer;
+    background-color: #34A853 ;
+}
+
+.botao:focus{ 
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 15px;    
+    margin:10px;
+    padding: 8px;   
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: #000     
+}
